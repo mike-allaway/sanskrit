@@ -1,6 +1,78 @@
 body {
-    font-family: sans-serif;
+    font-family: 'Alata', sans-serif;
+    background: #e2c2a0;
+    color: #643d25;
+    margin: 0;
 }
 
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 3em;
+    padding: 0.5em 0;
+    background: rgba(255,255,255,0.9);
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 0.5em;
+    vertical-align: middle;
+}
 
-/* https://unsplash.com/photos/qun1Pdo6wIM */
+header h1 {
+    width: 20%;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 2em;
+}
+
+header nav {
+    width: 78%;
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+}
+
+header nav .nav-item {
+    display: inline-block;
+    margin-left: 2em;
+}
+
+#splash {
+    width: 100%;
+    margin-top: 3.9em;
+    padding-top: 10vh;
+    height: calc(100vh - 4em);
+    /* https://unsplash.com/photos/qun1Pdo6wIM */
+    background: url('images/bg_medium.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#splash-tagline {
+    width: 40em;
+    margin-left: 10vw;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 0.5em;
+    font-size: 1.3em;
+}
+
+main {
+    padding: 1em 0;
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    color: white;
+    font-weight: 100;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 2.5em auto;
+}
+
+p {
+    font-size: 1.3em;
+}
