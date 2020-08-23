@@ -5,8 +5,17 @@ body {
     font-weight: 300;
 }
 
+a {
+    color: #5f3305;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #705a41;
+}
+
 header {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -96,6 +105,13 @@ article.article-text {
 
 #article-image-2 {
     background: url('images/bg3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#article-image-3 {
+    background: url('images/bg6.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
