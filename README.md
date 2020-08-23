@@ -1,3 +1,1 @@
-# sanskritsample
-
-Sample website about Sanskrit
+This is a sample website developed for demonstrative purposes by Mike Allaway and is not intended for actual use.
