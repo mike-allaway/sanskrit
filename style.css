@@ -19,6 +19,7 @@ header {
 }
 
 header h1 {
+    font-family: 'Alata', sans-serif;
     width: calc(20% - 1em);
     padding-left: 1em;
     display: inline-block;
@@ -26,8 +27,12 @@ header h1 {
     font-size: 1.7em;
     padding-top: 0.2em;
     cursor: pointer;
-    letter-spacing: 0.3em;
-    font-weight: 100;
+    letter-spacing: 0.2em;
+    font-weight: 300;
+}
+
+header nav .nav-item.active {
+    font-weight: 500;
 }
 
 header nav .nav-item:hover {
@@ -40,7 +45,7 @@ header nav {
     display: inline-block;
     text-align: right;
     vertical-align: middle;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.2em;
 }
 
 header nav .nav-item {
@@ -55,8 +60,7 @@ header nav .nav-item {
     margin-top: 3.8em;
     padding-top: 10vh;
     height: calc(100vh - 3.8em);
-    /* https://unsplash.com/photos/qun1Pdo6wIM */
-    background: url('images/bg_medium.jpg');
+    background: url('images/bg1.jpg'); /* https://unsplash.com/photos/qun1Pdo6wIM */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -68,26 +72,30 @@ header nav .nav-item {
     text-align: center;
     text-transform: uppercase;
     font-weight: 300;
-    letter-spacing: 0.3em;
-    font-size: 1.3em;
+    letter-spacing: 0.2em;
+    font-size: 1.5em;
     line-height: 2.5em;
     color: #815f4c;
 }
 
 article.article-text {
     padding: 5em 0;
-    background: #c5aa8d;
+    background: #f5e4d1;
 }
 
 .article-image {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 60vh;
+    height: 50vh;
 }
 
 #article-image-1 {
-    background: url('images/bg2_medium.jpg');
+    background: url('images/bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#article-image-2 {
+    background: url('images/bg3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -95,18 +103,20 @@ article.article-text {
 
 h2 {
     text-transform: uppercase;
-    letter-spacing: 0.3em;
-    color: white;
-    font-weight: 300;
+    letter-spacing: 0.1em;
+    color: #5f3305;
+    font-weight: 500;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.7em;
     margin-bottom: 2.5em;
 }
 
-p {
+p,
+ul,
+ol {
     font-size: 1.2em;
     line-height: 2em;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.05em;
     font-weight: 300;
 }
 
