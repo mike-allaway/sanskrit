@@ -61,7 +61,8 @@ header nav .nav-item.active {
     font-weight: 500;
 }
 
-header nav .nav-item:hover {
+header nav .nav-item:hover,
+header nav .nav-item.active {
     color: #b68a38;
 }
 
