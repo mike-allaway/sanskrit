@@ -38,7 +38,7 @@ header h1 {
     cursor: pointer;
     letter-spacing: 0.2em;
     font-weight: 300;
-    color: #b68a38;
+    color: #b28b01;
 }
 
 header nav {
@@ -55,6 +55,7 @@ header nav .nav-item {
     cursor: pointer;
     font-size: 1.1em;
     font-weight: 300;
+    background: white;
 }
 
 header nav .nav-item.active {
@@ -63,7 +64,7 @@ header nav .nav-item.active {
 
 header nav .nav-item:hover,
 header nav .nav-item.active {
-    color: #b68a38;
+    color: #b28b01;
 }
 
 #splash {
@@ -89,12 +90,12 @@ header nav .nav-item.active {
     color: #815f4c;
 }
 #splash-tagline strong {
-    color: #b68a38;
+    color: #b28b01;
 }
 
 article.article-text {
     padding: 5em 0;
-    background: #f5e4d1;
+    background: #eedac3;
 }
 
 .article-image {
