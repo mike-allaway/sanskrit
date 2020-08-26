@@ -1,0 +1,30 @@
+/* Extra small devices (1px and up) */
+@media (min-width: 1px) {
+
+    header h1 {
+        font-family: 'Alata', sans-serif;
+        width: 77%;
+        padding-left: 0em;
+    }
+    
+    header nav {
+        display: none;
+    }
+
+    header #navtoggle {
+        color: #b28b01;
+        display: inline-block;
+        width: 20%;
+        font-size: 1.7em;
+        text-align: right;
+        vertical-align: middle;
+    }
+
+    #splash-tagline {
+        width: 90%;
+        margin-left: 5%;
+        background: rgba(255,255,255,0.8);
+        padding: 0.5em;
+    }
+
+}

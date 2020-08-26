@@ -9,14 +9,18 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Alata&family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet"> 
-        <!-- Custom style -->
-        <link rel="stylesheet" href="style.css"> 
+        <!-- Custom styles -->
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style-small.css">
+        <link rel="stylesheet" href="style-large.css">
+        <!-- Font awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     </head>
 
     <body>
         <header>
             <div class="container-fluid">
-                <h1>PROJECTNAME</h1>
+                <h1>LINGUINDIC</h1>
                 <nav>
                     <span class="nav-item active">Welcome</span>
                     <span class="nav-item">Database</span>
@@ -24,6 +28,9 @@
                     <span class="nav-item">Events</span>
                     <span class="nav-item">Resources</span>
                 </nav>
+                <div id="navtoggle">
+                    <i class="fas fa-bars"></i>
+                </div>
             </div>
         </header>
 
@@ -32,6 +39,9 @@
                 <strong>New ideas</strong> for modern linguistics
                 <br>
                 from <strong>Ancient India</strong>
+            </div>
+            <div id="splash-proceed">
+                <i class="fas fa-angle-down"></i>
             </div>
         </div>
 
@@ -113,9 +123,13 @@
             </div>
         </footer>
 
-        <!-- Bootstrap JS links -->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- Bootstrap JS -->
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <!-- Custom script -->
+        <script src="script.js"></script>
+
     </body>
 </html>

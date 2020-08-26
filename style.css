@@ -25,12 +25,11 @@ header {
     text-transform: uppercase;
     vertical-align: middle;
     color: #8d715f;
+    z-index: 1000;
 }
 
 header h1 {
     font-family: 'Alata', sans-serif;
-    width: calc(20% - 1em);
-    padding-left: 1em;
     display: inline-block;
     vertical-align: middle;
     font-size: 1.7em;
@@ -79,8 +78,6 @@ header nav .nav-item.active {
 }
 
 #splash-tagline {
-    width: 40em;
-    margin-left: 5vw;
     text-align: center;
     text-transform: uppercase;
     font-weight: 300;
@@ -89,7 +86,29 @@ header nav .nav-item.active {
     line-height: 2.5em;
     color: #815f4c;
 }
+
 #splash-tagline strong {
+    color: #b28b01;
+}
+
+#splash-proceed {
+    font-size: 3em;
+	position: absolute;
+	bottom: 0.8em;
+    left: calc(50% - 40px);
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+	text-align: center;
+	background-color: rgba(255,255,255,0.5);
+	color: white;
+	padding-top: 5px;
+    cursor: pointer;
+    line-height: 80px;
+}
+
+#splash-proceed:hover {
+    background-color: rgba(255,255,255,1);
     color: #b28b01;
 }
 

@@ -1,0 +1,24 @@
+/* Large devices (992px and up) */
+@media (min-width: 992px) {
+    
+    header h1 {
+        width: calc(20% - 1em);
+        padding-left: 1em;
+    }
+    
+    header nav {
+        display: inline-block;
+    }
+
+    header #navtoggle {
+        display: none;
+    }
+
+    #splash-tagline {
+        width: 40em;
+        margin-left: 5vw;
+        background: none;
+        padding: 0em;
+    }
+
+}
