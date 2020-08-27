@@ -1,5 +1,5 @@
-/* Large devices (992px and up) */
-@media (min-width: 992px) {
+/* Large devices (768px and up) */
+@media (min-width: 768px) {
     
     header h1 {
         width: calc(20% - 1em);
@@ -8,6 +8,17 @@
     
     header nav {
         display: inline-block;
+        position: static;
+        width: 79%;
+        height: 1.5em;
+        text-align: right;
+        vertical-align: middle;
+    }
+
+    header nav .nav-item {
+        display: inline-block;
+        margin: 0 0 0 2em;
+        font-size: 1.1em;
     }
 
     header #navtoggle {

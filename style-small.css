@@ -8,7 +8,20 @@
     }
     
     header nav {
-        display: none;
+        display: block;
+        position: fixed;
+        top: 3.8em;
+        left: -100vw;
+        width: 100vw;
+        height: calc(100vh - 3.8em);
+        background: white;
+        text-align: left;
+    }
+
+    header nav .nav-item {
+        display: block;
+        margin: 1.7em 0.8em;
+        font-size: 1.5em;
     }
 
     header #navtoggle {
